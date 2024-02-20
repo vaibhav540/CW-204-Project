@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+}
