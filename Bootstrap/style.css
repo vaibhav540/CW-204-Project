@@ -9,5 +9,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
+#sidebar{
+    width: 25%;
+  
+}
+#watch-img{
+    width: 75%;
+  
+}
+
+
