@@ -1,0 +1,51 @@
+#container{
+    width:1440px;
+    margin: auto;
+    /* background-color: blue; */
+}
+
+#timeCraftNavbar{
+    /* background-color: blueviolet; */
+    height: 10vh;
+
+}
+
+#carouselExampleDark{
+    width: 60%;
+    /* background-color: pink; */
+    height: 48px;
+    
+}
+
+#carouselItem1{
+    width: 90%; 
+    position: relative; 
+    left: 5%; right:2%;
+}
+  
+.logo_img{
+    background-image: url(./timecraft_logo.png);
+     background-size: cover; 
+     background-position: center;
+      height:48px; width: 80px;
+}
+
+#carouselItem2{
+    width: 90%;
+     position: relative;
+      left: 5%; right:2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
