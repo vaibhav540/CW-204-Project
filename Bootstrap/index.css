@@ -6,25 +6,49 @@ body{
 #sidebar-watch{
     height: auto;
     width: 100%;
-    border: 1px solid wheat;
     display: flex;
     gap: 5px;
     
 }
 #sidebar{
-    width: 20%;
-    border: 1px solid black;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid;
 }
 #watch-img{
-    width: 75%;
-    border: 1px solid wheat;
+    /* border: 1px solid; */
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-right: 30px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     box-sizing: border-box;
-    gap: 1%;
+}
+.card img{
+    width: 100%;
+    background-color: rgb(239, 238, 238);
 }
 .card>img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+.card-body>p:nth-of-type(2){
+    position: relative;
+    top: 30px;
+    font-size: 10px;
+    left: 2px;
+ 
+}
+.card-body>p:nth-of-type(3){
+    position: relative;
+    top: 25px;
+    font-size: 15px;
+ 
+}
+.card:hover{
+    border: 1px solid;
 }
 
 @media (width<768px){
@@ -33,11 +57,14 @@ body{
     }
     #watch-img{
         display: grid;
+        width: auto;
         grid-template-columns: repeat(2,1fr);
+        border: 1px solid;
     }
 }
 @media (768px <= width <= 1023px){
     #sidebar{
+        width: 25%;
         display: block;
     }
     #watch-img{
