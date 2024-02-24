@@ -1,0 +1,2640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Bootstrap Example</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainpart">
+      <div class="sidebar">
+        <div id="filter">
+          <h6>Sort</h6>
+          <div class="form-check dark-circle">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1"
+              >Newest</label
+            >
+          </div>
+          <div class="form-check dark-circle">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault2"
+              checked=""
+            />
+            <label class="form-check-label" for="flexRadioDefault2"
+              >Price: High-Low</label
+            >
+          </div>
+          <div class="form-check dark-circle">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault3"
+            />
+            <label class="form-check-label" for="flexRadioDefault3"
+              >Price: Low-High</label
+            >
+          </div>
+          <div class="form-check dark-circle">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault4"
+            />
+            <label class="form-check-label" for="flexRadioDefault4"
+              >Weight: Heavy-Light</label
+            >
+          </div>
+          <div class="form-check dark-circle">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault5"
+            />
+            <label class="form-check-label" for="flexRadioDefault5"
+              >Weight: Light-Heavy</label
+            >
+          </div>
+          <hr />
+          <h6>Price-Range</h6>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Below - <i class="fa-solid fa-indian-rupee-sign"></i> 5000
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              <i class="fa-solid fa-indian-rupee-sign"></i> 5000 -
+              <i class="fa-solid fa-indian-rupee-sign"></i> 10000
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              <i class="fa-solid fa-indian-rupee-sign"></i> 10000 -
+              <i class="fa-solid fa-indian-rupee-sign"></i> 20000
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              <i class="fa-solid fa-indian-rupee-sign"></i> 20000 -
+              <i class="fa-solid fa-indian-rupee-sign"></i> 30000
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              <i class="fa-solid fa-indian-rupee-sign"></i> 30000 -
+              <i class="fa-solid fa-indian-rupee-sign"></i> 40000
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              <i class="fa-solid fa-indian-rupee-sign"></i> 40000 -
+              <i class="fa-solid fa-indian-rupee-sign"></i> 50000
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              <i class="fa-solid fa-indian-rupee-sign"></i> Above -
+              <i class="fa-solid fa-indian-rupee-sign"></i> 50000
+            </label>
+          </div>
+          <hr />
+
+          <h6>Display type</h6>
+          <div id="one">
+            <button>Digital</button>
+            <button disabled>Analog</button>
+            <button>Digital and Analog</button>
+
+            <hr />
+            <h6>Functions</h6>
+            <button>Solar Charger</button>
+            <button>Water Resistance</button>
+            <button>Smartphone link</button>
+            <button>Tide graph</button>
+            <button disabled>Hand home position correction</button>
+            <button>Moon data</button>
+
+            <hr />
+            <h6>bezel color</h6>
+          </div>
+          <div id="two">
+            <div style="background-color: red"></div>
+            <div style="background-color: brown"></div>
+            <div style="background-color: orange"></div>
+            <div style="background-color: olive"></div>
+            <div style="background-color: rgb(0, 255, 251)"></div>
+            <div style="background-color: rgb(66, 66, 66)"></div>
+            <div style="background-color: greenyellow"></div>
+            <div style="background-color: purple"></div>
+            <div style="background-color: thistle"></div>
+            <div style="background-color: mediumorchid"></div>
+            <div style="background-color: lightcoral"></div>
+            <div style="background-color: olive"></div>
+          </div>
+          <hr />
+
+          <h6>Series</h6>
+          <button>MT-G</button>
+          <button>FULL METAL</button>
+          <button>G-STEEL</button>
+          <button>G-SQUAD</button>
+          <button>MASTER OF G</button>
+          <button>5600 SERIES</button>
+          <button>2100 SERIES</button>
+          <button>110 SERIES</button>
+          <!-- <button>6900 SERIES</button>
+            <button>G-LIDE</button>
+            <button>LIMITED EDITION</button>
+            <button>G-SHOCK WOMEN</button> -->
+
+          <hr />
+
+          <h6>Time Adjustment</h6>
+          <button>GPS satelite radio reception</button>
+          <button>Standers radio reception</button>
+
+          <hr />
+          <h6>Sensor feature</h6>
+          <button>Direction</button>
+          <button>Altitude</button>
+          <button>Boromatric function</button>
+          <button>Tempreture</button>
+          <button disabled>Water depth</button>
+          <button disabled>Humidity</button>
+          <button disabled>Number of steps</button>
+          <button>Acceleration (number of steps/travel distance)</button>
+          <button>Heart rate</button>
+
+          <hr />
+
+          <h6>Characteristics</h6>
+          <button disabled>Carbon materials</button>
+          <button>Collaboration model</button>
+
+          <hr />
+
+          <h6>Water resistance function</h6>
+          <button disabled>Water resistance for ISO 200m submersion</button>
+          <button>Water resistance up to 20 bar</button>
+
+          <hr />
+
+          <button
+            style="
+              border: 1px solid rgb(66, 66, 66);
+              text-align: center;
+              width: 130px;
+              height: 40px;
+              font-size: 16px;
+              margin: 40px;
+              background-color: white;
+            "
+          >
+            Clear
+          </button>
+        </div>
+      </div>
+
+      <!-- ---------------------------------------sidebar end here------------------------------ -->
+
+      <div class="watch-card">
+        <!-- 1st watch -->
+        <div
+          class="card position-relative"
+          style="width: 16rem; height: 25rem; overflow: hidden"
+        >
+          <img
+            src="https://www.casio.com/content/casio/locales/in/en/products/watches/gshock/_jcr_content/root/responsivegrid/container/product_panel_list_f/content_panel_202211041126293110/image.casiocoreimg.jpeg/1689744233938/dw-5600bb-1-seq5.jpeg"
+            class="card-img-top position-absolute top-0 start-0 w-100 h-60"
+            alt="1st watch"
+            style="object-fit: cover; padding: 10px; box-sizing: border-box"
+          />
+          <div
+            class="lower-part position-absolute bottom-0 start-0 w-100"
+            style="
+              background-color: black;
+              height: 40%;
+              padding: 10px;
+              color: white;
+              display: flex;
+              align-items: center;
+              box-sizing: border-box;
+            "
+          >
+            <div class="card-text position-absolute top-0 start-2">
+              BEST SELLER
+            </div>
+          </div>
+        </div>
+
+        <!-- 2nd watch -->
+        <div
+          class="card position-relative"
+          style="width: 16rem; height: 25rem; overflow: hidden"
+        >
+          <img
+            src="https://www.casio.com/content/casio/locales/in/en/products/watches/gshock/_jcr_content/root/responsivegrid/container/product_panel_list_f/content_panel_202212211235073281/image.casiocoreimg.png/1689744244043/g-5600ue-1-04.png"
+            class="card-img-top position-absolute top-0 start-0 w-100 h-60"
+            alt="1st watch"
+            style="object-fit: cover; padding: 10px; box-sizing: border-box"
+          />
+          <div
+            class="lower-part position-absolute bottom-0 start-0 w-100"
+            style="
+              background-color: black;
+              height: 40%;
+              padding: 10px;
+              color: white;
+              display: flex;
+              align-items: center;
+              box-sizing: border-box;
+            "
+          >
+            <div class="card-text position-absolute top-0 start-2">
+              5600 series
+            </div>
+          </div>
+        </div>
+        <!-- 3rd watch -->
+        <div
+          class="card position-relative"
+          style="width: 16rem; height: 25rem; overflow: hidden"
+        >
+          <img
+            src="https://www.casio.com/content/casio/locales/in/en/products/watches/gshock/_jcr_content/root/responsivegrid/container/product_panel_list_f/content_panel_202302141951216142/image.casiocoreimg.jpeg/1680588917153/gm-2100g-1a9-004.jpeg"
+            class="card-img-top position-absolute top-0 start-0 w-100 h-60"
+            alt="1st watch"
+            style="object-fit: cover; padding: 10px; box-sizing: border-box"
+          />
+          <div
+            class="lower-part position-absolute bottom-0 start-0 w-100"
+            style="
+              background-color: black;
+              height: 40%;
+              padding: 10px;
+              color: white;
+              display: flex;
+              align-items: center;
+              box-sizing: border-box;
+            "
+          >
+            <div class="card-text position-absolute top-0 start-2">
+              2100 series
+            </div>
+          </div>
+        </div>
+        <!-- 4th watch -->
+        <div class="card1 p-2" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-3 start-1 mx-2">New</div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-110cd-1a2/assets/GA-110CD-1A2.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 5th watch -->
+
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100bce-1a/assets/GA-2100BCE-1A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-2100BCE-1A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 9,995(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 6th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-110cd-1a2/assets/GA-110CD-1A2.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GMA-P2100-2A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 8,495(incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 7th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GS/GST/gst-b600d-1a/assets/GST-B600D-1A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GMA-P2100-7A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 8,495(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 8th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GS/GST/gst-b600-1a/assets/GST-B600-1A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GMA-P2100W-7A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 8,495(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 9th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GM5/gm-5600gc-1/assets/GM-5600GC-1.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A3</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 9,195(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 10th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GM5/gm-5600gc-1/assets/GM-5600GC-1.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A3</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 9,195(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 11th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GW/GW9/gw-9500tlc-1/assets/GW-9500TLC-1.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 12th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-110cd-1a2/assets/GA-110CD-1A2.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GM-S5600UBR-5</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 14,995(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 13th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-110cd-1a9/assets/GA-110CD-1A9.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GM-S5600UPG-4</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 9,195(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 14th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100bce-1a/assets/GA-2100BCE-1A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">DW-5600BCE-1</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 8,495(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 15th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-p2100-2a/assets/GMA-P2100-2A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GPR-H1000-9</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 59,995(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 16th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-p2100-7a/assets/GMA-P2100-7A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 17th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-p2100w-7a/assets/GMA-P2100W-7A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 18th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100-2a2/assets/GA-2100-2A2.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 19th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100-7a7/assets/GA-2100-7A7.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 20th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100-9a9/assets/GA-2100-9A9.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 21th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA7/ga-700bce-1a/assets/GA-700BCE-1A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-100MT-1A3</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 7,995(incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 22th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMS/gm-s5600ubr-5/assets/GM-S5600UBR-5.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-70MT-1A9</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 7,995(incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 23th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMS/gm-s5600upg-4/assets/GM-S5600UPG-4.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GW-B5600CD-1A3</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 10,495(incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 24th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW5/dw-5600bce-1/assets/DW-5600BCE-1.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GW-B5600CD-9</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 10,495(incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 25th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GP/GPR/gpr-h1000-1/assets/GPR-H1000-1.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GW-5610MT-1</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 17,995(incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 26th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GP/GPR/gpr-h1000-9/assets/GPR-H1000-9.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">DW-5900MT-1A4</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 6,695(incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 27th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/gm2/gm-2100mwg-1a/assets/GM-2100MWG-1A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">MTG-B3300CXD-9A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 79,995(incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 28th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-100mt-1a3/assets/GA-100MT-1A3.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">DW-5610SC-2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 7,295(incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 29th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA7/ga-700mt-1a9/assets/GA-700MT-1A9.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 30th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GW/GWB/gw-b5600cd-1a3/assets/GW-B5600CD-1A3.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-2100AH-6A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 8,495(incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 31th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GW/GWB/gw-b5600cd-9/assets/GW-B5600CD-9.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GMA-S2100NC-4A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 7,495(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 32th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW5/dw-5610mt-1/assets/DW-5610MT-1.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GMA-S2100NC-4A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 7,495(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 33th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW5/dw-5900mt-1a4/assets/DW-5900MT-1A4.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GMA-2100NC-8A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 7,495(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 34th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/M/MT/MTG/mtg-b3000cxd-9a/assets/MTG-B3000CXD-9A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">DW-5600NNJ-2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 10,495(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 35th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW5/dw-5610sc-2/assets/DW-5610SC-2.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GMD-S5600NC-2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 5,495(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 36th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100nnj-8a/assets/GA-2100NNJ-8A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GMD-S5600NC-9</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 5,495(incl. of all taxes)</p>
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 37th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100ah-6a/assets/GA-2100AH-6A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">DW-6900NNJ-1</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 12,495(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 38th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2100nc-4a/assets/GMA-S2100NC-4A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GM-B2100LL-1A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 73,995(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 39th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2100nc-4a2/assets/GMA-S2100NC-4A2.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GM-B2100BPC-1A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 44,995(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 40th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2100nc-8a/assets/GMA-S2100NC-8A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GM-B2100BPC-1A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 44,995(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 41th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-110ll-1a/assets/GA-110LL-1A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 42th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-110ws-7a/assets/GA-110WS-7A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GM-B2100PC-1A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 38,995(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 43th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100ws-7a/assets/GA-2100WS-7A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110LL-1A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 14,995(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 44th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100ws-7a/assets/GA-2100WS-7A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-2100WS-7A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 10,495(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 45th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/gm2/gm-2100ws-7a/assets/GM-2100WS-7A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-2100WS-7A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 9,775(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 46th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/gab/ga-b2100cy-1a/assets/GA-B2100CY-1A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-2100WS-7A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 14,595(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 47th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMS/gm-s2100ws-7a/assets/GM-S2100WS-7A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-B2100CY-1A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,995(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 48th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMS/gm-s2100bc-1a/assets/GM-S2100BC-1A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GMA-S2100WS-7A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 9,395(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 49th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/gab/ga-b2100fc-1a/assets/GA-B2100FC-1A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GM-S2100WS-7A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 13,995(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 50th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/gab/ga-b2100fc-1a/assets/GA-B2100FC-1A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 51th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/gab/ga-b2100fc-3a/assets/GA-B2100FC-3A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GM-S2100BC-1A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 13,995(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 52th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/gab/ga-b2100fc-7a/assets/GA-B2100FC-7A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-B2100FC-1A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11 995(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 53th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-100cy-1a/assets/GA-100CY-1A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-B2100FC-3A</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,995(incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 54th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMD/gmd-s5600ba-4/assets/GMD-S5600BA-4.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 55th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMD/gmd-s5600ba-6/assets/GMD-S5600BA-6.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 56th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW6/dw-6940rx-7/assets/DW-6940RX-7.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 57th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GW/GW9/gw-9500-1/assets/GW-9500-1.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 58th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GW/GW9/gw-9500-1a4/assets/GW-9500-1A4.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 59th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GW/GW9/gw-9500-3/assets/GW-9500-3.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 60th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/M/MT/MTG/mtg-b3000d-1a9/assets/MTG-B3000D-1A9.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!--61th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GM1/gm-110cl-6a/assets/GM-110CL-6A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 62th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/gm2/gm-2100cl-5a/assets/GM-2100CL-5A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 63th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-100pc-7a2/assets/GA-100PC-7A2.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 64th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA4/ga-400pc-8a/assets/GA-400PC-8A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 65th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GM5/gm-5600cl-3/assets/GM-5600CL-3.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 66th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW6/dw-6600pc-5/assets/DW-6600PC-5.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 67th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/M/MT/MTG/mtg-b3000prb-1a/assets/MTG-B3000PRB-1A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 68th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-114re-1a/assets/GA-114RE-1A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 69th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2140re-1a/assets/GA-2140RE-1A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 70th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2100bs-3a/assets/GMA-S2100BS-3A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 71th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2100bs-4a/assets/GMA-S2100BS-4A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 72th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2100bs-7a/assets/GMA-S2100BS-7A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 73th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100ff-8a/assets/GA-2100FF-8A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 74th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2200ff-8a/assets/GA-2200FF-8A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 75th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA7/ga-700ff-8a/assets/GA-700FF-8A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 76th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2200pe-3a/assets/GMA-S2200PE-3A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 77th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2200pe-5a/assets/GMA-S2200PE-5A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 78th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DWE/dwe-5657re-1/assets/DWE-5657RE-1.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 79th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW5/dw-5900fa-1/assets/DW-5900FA-1.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 80th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-2/assets/DW-H5600-2.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 81th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA7/ga-700rgb-1a/assets/GA-700RGB-1A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <!-- 82th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/gm2/gm-2140gem-2a/assets/GM-2140GEM-2A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 83th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMS/gm-s114gem-1a2/assets/GM-S114GEM-1A2.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 84th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMS/gm-s2140gem-9a/assets/GM-S2140GEM-9A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 85th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GM5/gm-5640gem-1/assets/GM-5640GEM-1.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 86th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMD/gmd-s5600-1/assets/GMD-S5600-1.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 87th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GB/gb0/g-b001mvb-8/assets/G-B001MVB-8.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 88th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GW/GWF/gwf-a1000apf-1a/assets/GWF-A1000APF-1A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 89th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/M/MT/MTG/mtg-b3000cx-9a/assets/MTG-B3000CX-9A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 90th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2100ba-2a2/assets/GMA-S2100BA-2A2.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 91th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2200bnr-1a/assets/GA-2200BNR-1A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 92th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA7/ga-700bnr-1a/assets/GA-700BNR-1A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 93th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GW/GW8/gw-8230b-9a/assets/GW-8230B-9A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 94th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2110sc-4a/assets/GA-2110SC-4A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 95th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/gab/ga-b001-4a/assets/GA-B001-4A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 96th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GM5/gm-5600ss-1/assets/GM-5600SS-1.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 97th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/gmb/gm-b2100gd-5a/assets/GM-B2100GD-5A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 98th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMS/gm-s2100br-5a/assets/GM-S2100BR-5A.png.transform/product-panel/image.png "
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 99th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2100sk-2a/assets/GMA-S2100SK-2A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+        <!-- 100th watch -->
+        <div class="card1 p-2 border-0.5" style="width: 16rem; height: 25rem">
+          <div class="position-relative">
+            <div class="position-absolute top-4 start-1 text-black mx-2 p-1">
+              New
+            </div>
+            <div class="position-absolute top-1 end-0 mx-2">
+              <i class="fa-regular fa-heart fa-xl p-1 rounded"></i>
+            </div>
+            <img
+              src=" https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2100sk-4a/assets/GMA-S2100SK-4A.png.transform/product-panel/image.png"
+              class="card-img-top"
+              alt="4th watch"
+              style="width: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text fs-5">G-SHOCK</p>
+            <h5 class="card-text">GA-110CD-1A2</h5>
+            <p class="card-text1">MRP</p>
+            <p class="card-text2">RS. 11,695 (incl. of all taxes)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- --------------------------------watch-card end here------------------------------ -->
+    </div>
+    <div style="background-color: rgb(98, 94, 101); margin-top: 6px">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sequi!
+      Debitis velit et quae quaerat eligendi, exercitationem quod temporibus,
+      quos maxime aspernatur beatae minima at asperiores dignissimos aut ut.
+      Sequi dolorem ut rem, error omnis a aliquid temporibus assumenda eius
+      voluptates veritatis sed. Et quasi, iusto harum nisi dolor dicta modi ea
+      ipsum laborum, delectus, beatae doloribus maiores praesentium? Ratione
+      aperiam quidem nihil inventore iusto illum, eos debitis dicta molestias
+      aut atque mollitia incidunt accusantium corporis consectetur ullam, neque
+      tempora deleniti, nam laborum! Qui magnam, sequi necessitatibus veniam
+      earum nesciunt animi. Iste vero dolores id, consequatur libero natus ipsum
+      quibusdam.
+    </div>
+  </body>
+</html>
