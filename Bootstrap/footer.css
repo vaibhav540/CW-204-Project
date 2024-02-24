@@ -1,139 +1,85 @@
-/* you can remove this one */
-body {
-  margin: 0px;
-  padding: 0px;
-}
-.container {
-  width: auto;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-header {
-  width: 100%;
-  height: 90vh;
-  background-color: blueviolet;
-}
-main {
-  width: 100%;
-  height: 90vh;
-  background-color: pink;
-}
-section {
-  width: 100%;
-  height: 90vh;
-  background-color: yellow;
-}
-/* till here  */
-#footer {
+#container {
   width: 100%;
   height: 40vh;
-  background-color: #f7f8fa;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+  background-color: rgb(240, 238, 238);
+  color: black;
+  margin: 20px 20px 20px 50px;
 }
-#footer > div:nth-child(1) {
+#container > div:nth-child(1) {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  /* border: 1px solid black; */
-  margin: 0 300px 0 150px;
-  font-size: 30px;
-  cursor: pointer;
-  div.dropdown{
-    display:none;
+  gap: 30px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 20px 0 0 50px;
+}
+#container > div:nth-child(2) {
+  display: flex;
+  /* grid-template-columns: repeat(4,1fr); */
+  gap: 30px;
+  margin:20px;
+}
+
+#container > div:nth-child(3) {
+  display: flex;
+  /* grid-template-columns: repeat(4,1fr); */
+  gap: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.dropdown {
+  display: none;
+}
+
+@media (min-width: 2000px) {
+  .dropdown,
+  hr {
+    display: none;
   }
 }
-#footer > div:nth-child(2) {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-  font-size: 50px;
-  /* border: 1px solid red; */
-  margin: 0 300px 0 50px;
-  cursor: pointer;
-}
-#footer > div:nth-child(3) {
-  display: flex;
-  gap: 20px;
-  /* border: 1px solid blue; */
-  margin: 0 300px 0 50px;
-  font-size: 20px;
-  cursor: pointer;
-}
-#footer > div:nth-child(4) {
-  /* border: 1px solid yellow; */
-  margin: 0 300px 0 50px;
-  font-size: 20px;
-  cursor: pointer;
-}
-#footer > div:nth-child(5){
-    /* border: 1px solid brown; */
-    width: 100%;
-    background-color: #eaeef1;
-    cursor: pointer;
-}
 
-#footer > div:nth-child(5) h4{
-  /* border: 1px solid brown; */
-  width: 100%;
-  background-color: #eaeef1;
-  margin: 0 300px 0 50px;
-  font-size: 30px;
-}
-
-/* #footer>div:nth-child(6){
-    border:1px solid green;
-    width:100%;
-    height:10vh;
-    background-color:#dbdcdf;
-    margin:0 300px 0 20px;
-    
-} */
-
-@media (max-width: 767px) {
-  #footer {
-    width: auto;
-    margin-bottom: 0;
-    line-height: 14.57726vw;
-    position: relative;
-    display: block;
-    font-weight: 500;
-    font-size: 14px;
+@media (max-width:767px){
+  #container>div:nth-child(1) {
+    /* display:none; */
   }
-  #footer > div:nth-child(3) {
+  #container > div:nth-child(2) {
     display: flex;
-    flex-direction: column;
-    padding: 0;
+    /* grid-template-columns: repeat(4,1fr); */
+    gap: 30px;
+    margin:20px;
     flex-wrap: wrap;
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-
-    font-style: normal;
-  }
-
-  #footer > div:nth-child(1) {
-    display: grid;
-    flex-wrap: wrap;
-    /* grid-template-columns: repeat(1, 1fr); */
-    gap: 20px;
-    border: 1px solid black;
-    margin: 0 300px 0 150px;
-    font-size: 30px;
-    span {
-      display: none;
-    }
-    >div h3{
-        display: none;
-    }
-    div.dropdown{
-        display:i;
-        
-      }
   }
   
+  #container > div:nth-child(3) {
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(4,1fr); */
+    gap: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
 }
+
+ 
+  /* Default styles for dropdown and hr */
+  .dropdown,
+  hr {
+    display: none;
+  }
+
+  /* Show .dropdown and hr on screens with width <= 767px */
+  @media screen and (max-width: 767px) {
+    .dropdown,
+    hr {
+      display: block;
+    }
+
+    /* Hide the first child of the container on small screens */
+    #container > div:first-child {
+      display: none;
+    }
+  }
