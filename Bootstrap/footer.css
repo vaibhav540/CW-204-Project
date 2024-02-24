@@ -14,12 +14,15 @@
   font-weight: 500;
   font-style: normal;
   margin: 20px 0 0 50px;
+  cursor:pointer;
 }
 .grey{
   color: grey;
+  cursor:pointer;
 }
 .social{
   margin:20px;
+  cursor:pointer;
 }
 /* #container-fluid > div:nth-child(2) {
   display: flex;
@@ -35,6 +38,12 @@
   flex-direction:row;
   gap:10px; 
   font-size:10px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 20px 0 0 50px;
+  cursor:pointer;
 }
 @media screen and (max-width>=2000px){
   .dropdown{
@@ -49,6 +58,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
+  cursor:pointer;
 }
 .dropdown {
   display: none;
@@ -62,6 +72,7 @@
     font-size:20px;
     font-weight: 1000px;
     margin-left:20px;
+    cursor:pointer;
   
   }
 
@@ -92,12 +103,14 @@ p{
     hr {
       display: block;
       margin:20px;
+      cursor:pointer;
     }
 
     button{
       display: grid;
       grid-template-columns: repeat(2,1fr);
       gap:150px;
+      cursor:pointer;
       
     }
 
