@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+figure {
+  width: 1730px;
+  height: 652px;
+  border: 2px solid;
+  margin-top: 100px;
+}
+figure > #heading {
+  width: 212.4px;
+  height: 45px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+figure > #heading > h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+figure > #images-container {
+  padding: 0px;
+  width: 1730px;
+  height: 450px;
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 40px;
+  gap: 30px;
+}
+figure > #images-container > .img {
+  position: relative;
+}
+figure > #images-container > .img > .day {
+  width: 39.97px;
+  height: 24.38px;
+  margin-top: 51px;
+  margin-left: 35.5px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+figure > #images-container > .img .country {
+  width: auto;
+  height: 24.38px;
+  margin-top: 247.56px;
+  margin-left: 50px;
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+figure > #images-container > .img > .from {
+  width: 31.01px;
+  height: 17px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: right;
+  position: absolute;
+  top: 369.06px;
+  left: 349.19px;
+  bottom: 64.94px;
+}
+figure > #images-container > .img > .rating {
+  width: 54.59px;
+  height: 17px;
+  position: absolute;
+  top: 399.63px;
+  left: 125px;
+  right: 230.41px;
+  bottom: 34.37px;
+  color: rgb(255, 255, 255);
+}
+figure > #images-container > .img > .dollar {
+  width: auto;
+  height: 24px;
+  position: absolute;
+  top: 390.25px;
+  left: 316.83px;
+  right: 35.75px;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+figure .img1 {
+  background-color: red;
+  background-image: url(./img1.png);
+  background-position: center;
+  background-size: cover;
+  width: 410px;
+  height: 450px;
+  border-radius: 12px;
+  padding: 0px;
+  margin-left: 15px;
+}
+figure .img1 > #info1 {
+  width: 280.56px;
+  height: 51px;
+  margin-top: 6px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+figure .img2 {
+  background-image: url(./img2.png);
+  background-color: red;
+  background-position: center;
+  background-size: cover;
+  width: 410px;
+  height: 450px;
+  border-radius: 12px;
+}
+figure .img2 > #info2 {
+  width: 301.22px;
+  height: 51px;
+  margin-top: 6px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+figure .img3 {
+  background-image: url(./img3.png);
+  background-position: center;
+  background-size: cover;
+  width: 410px;
+  height: 450px;
+  border-radius: 12px;
+}
+figure .img3 > #info3 {
+  width: 238.25px;
+  height: 51px;
+  margin-top: 6px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 17.72px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+figure .img4 {
+  background-image: url(./img4.png);
+  background-position: center;
+  background-size: cover;
+  width: 410px;
+  height: 450px;
+  border-radius: 12px;
+}
+figure .img4 > #info4 {
+  width: 284.01px;
+  height: 51px;
+  margin-top: 6px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 17.58px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=featuredTrips.css.map */
