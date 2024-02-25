@@ -29,4 +29,215 @@ body {
 }
 
 
+
 /* ===========================ss end here============================= */
+
+/* Varshitha style part here */
+/* Navbar styling */
+nav{
+    width:100%;
+    margin: auto;
+  
+}
+ 
+#timeCraftNavbar{
+    height: 10vh;
+    margin-left: 50px;
+}
+#timeCraftNavbar>div:nth-of-type(2){
+    font-size: 15px;
+    margin-right: 50px;
+}
+#button{
+    display: none;
+}
+#ham-content{
+    display: none;
+}
+
+/* carousel styling */
+
+figure{
+    
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+    left: 3.5%;
+}
+.hr1{
+    width:93%;
+    margin-left: 3%;
+}
+#carouselExampleDark{
+    width: 70%;
+    height: 48px;
+   font-size:12px; 
+   margin-left: 3%;  
+     
+}
+
+
+#carouselItem1{
+    width: 90%; 
+    position: relative; 
+    left: 5%; right:2%;
+}
+
+
+  
+.logo_img{
+    background-image: url(./timecraft_logo.png);
+     background-size: cover; 
+     background-position: center;
+      min-height:30px; min-width: 100px;
+}
+
+#carouselItem2{
+    width: 90%;
+     position: relative;
+      left: 5%; right:2%;
+      
+}
+ 
+/* Scroll bar for tab and phone view  */
+
+section {
+    display: none;
+}
+
+    /* Tab view  */
+
+@media(max-width:768px){
+   /* hamburger menu   */
+   nav{
+    width:100%;
+    margin: auto;
+   
+   }
+   #timeCraftNavbar>div:nth-of-type(2)>span{
+     display: none;
+     margin-left: 10px;
+   }
+   #timeCraftNavbar>div:nth-of-type(2)>#button{
+    display: block;
+   }
+
+   
+
+/* making carosel invisable */
+
+   figure{
+    display: none;
+    
+   }
+
+  /* making scroll bar visable  */
+
+section{
+    padding: 0px;
+    margin: 0px;
+     display: block;
+     display: flex;
+     flex-direction: column;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+    
+}
+hr{
+    
+    padding: 0px;
+   
+}
+
+.scroll-container {
+    width: 100%;
+    max-height: 48px; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+    font-size: 13px;
+    background-color: white;
+    
+  }
+  .scroll-content{
+    margin-left: 3%;
+   
+  }
+  
+   .content {
+    width: 600px; 
+  } 
+ 
+}
+
+@media(max-width:420px){
+    nav{
+        width:100%;
+        margin: auto;
+       
+       }
+     
+       figure{
+        display: none;
+        margin-left: 10px;
+        
+       }
+    section{
+        padding: 0px;
+        margin: 0px;
+         display: block;
+         display: flex;
+         flex-direction: column;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        background-color: white;
+        
+    }
+    hr{
+        width: 100%;
+        padding: 0px;
+       
+    }
+    
+    .scroll-container {
+        width: 100%;
+        max-height: 48px; 
+        overflow-x: auto; 
+        white-space: nowrap; 
+        font-size: 13px;
+        background-color: white;
+        
+      }
+      .scroll-content{
+        margin-left: 3%;
+       
+      }
+      /* Add some content for demonstration */
+      .content {
+        width: 600px; 
+      } 
+}
+
+/* Varshitha part ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
