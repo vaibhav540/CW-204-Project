@@ -357,8 +357,8 @@ border: 2px solid black;
     color: black;
     /* margin: 20px 20px 20px 50px; */
     justify-content: center;
-    height:500px;
-    margin:10px;
+    height:auto;
+    margin:30px;
     
   }
   #container-fluid >div:nth-child(1) {
@@ -379,6 +379,7 @@ border: 2px solid black;
   .social{
     margin:20px;
     cursor:pointer;
+    font-size: 25px;
   }
   /* #container-fluid  > div:nth-child(2) {
     display: flex;
@@ -392,13 +393,13 @@ border: 2px solid black;
     margin-left:20px;
     display:flex; 
     flex-direction:row;
-    gap:10px; 
-    font-size:10px;
+    gap:30px; 
+    font-size:14px;
   
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin: 20px 0 0 50px;
+    /* margin: 20px 0 0 50px; */
     cursor:pointer;
   }
   @media screen and (max-width>=2000px){
@@ -434,7 +435,7 @@ border: 2px solid black;
   
   p{
     margin-left:20px;
-    font-size:10px;
+    font-size:14px;
   }
   
    
@@ -489,7 +490,7 @@ border: 2px solid black;
         gap:10px;
         text-align: center;
         justify-content: center;
-      } */
+      } 
   
       
     }
