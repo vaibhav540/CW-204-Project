@@ -3,12 +3,15 @@
 
 body {
     font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
     background: rgb(119,36,174);
     background: linear-gradient(90deg, rgba(119,36,174,1) 0%, rgba(211,100,100,1) 50%, rgba(182,133,64,1) 100%);
-    height: 60px;
+    height: 45px;
+    box-sizing: border-box;
 }
 
 
@@ -27,12 +30,19 @@ body {
         margin-right: auto;
     }
 }
+.container-fluid img{
+    width: 120px;
+    height: 45px;
+   
+}
 
 
 
-/* ===========================ss end here============================= */
+/* ===========================header css end here============================= */
 
 /* Varshitha style part here */
+
+
 /* Navbar styling */
 nav{
     width:100%;
@@ -225,6 +235,75 @@ hr{
 
 /* Varshitha part ends here */
 
+
+/* ---------vaibhav's css start here---------------------- */
+
+.mainpart{
+    display: flex;
+    height:500px;
+    width: 100%;
+}
+.sidebar{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    width: 25%;
+    overflow-y: auto; 
+    /* background: linear-gradient(#04a1ef, #bf4bca,#05bc98,#f4f700); */
+
+   
+}
+/* .sidebar::-webkit-scrollbar {
+   display: none;
+ } */
+
+#one button{
+   border: none;
+   font-size: 12px;
+   padding: 8px;
+
+}
+#two>div{
+width: 70px;
+height: 70px;
+border: 2px solid black;
+}
+#two{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 6px;
+   justify-content: center;
+}
+#filter{
+  margin-left: 30px;
+ 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+#filter>button{
+   border: none;
+   font-size: 12px;
+   padding: 8px;
+   background-color: rgb(235, 235, 234);
+  
+}
+#filter>button:hover{
+ background: linear-gradient(#04a1ef, #bf4bca);
+  color: white;
+  border: 1px double;
+
+  
+}
+
+#one>button:hover{
+ background: linear-gradient(#04a1ef, #bf4bca);
+   color: white;
+   border: 1px double;
+}
+
+
+/* --------------vaibhav's css end here------------------- */
 
 
 
