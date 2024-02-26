@@ -8,3 +8,307 @@ body {
     margin: 0;
     padding: 0;
 }
+
+// ==================================vaibhavs css start here======================================
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-container {
+    width: 1320px;
+    height: 529.98px;
+    margin: auto;
+
+    .article1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h5 {
+            font-family: "Inter", sans-serif;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 45px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        p {
+            font-family: "Inter", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+
+    .article2 {
+        display: flex;
+        gap: 30px;
+
+        >div {
+            width: 409.98px;
+            height: 299.98px;
+            top: 95px;
+            left: 15px;
+
+        }
+
+        button {
+            width: 62.17px;
+            height: 36.25px;
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 9px, 14.8px, 9.25px, 15px;
+            border-radius: 200px;
+            border: none;
+        }
+
+        >div:nth-of-type(1) {
+            background-image: url("./vaibhavs image/photo-1.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        >div:nth-of-type(2) {
+            background-image: url("./vaibhavs image/photo-2.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        >div:nth-of-type(3) {
+            background-image: url("./vaibhavs image/photo-3.png");
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    .article3 {
+        display: flex;
+
+        >div:nth-of-type(1) {
+            margin-right: 70px;
+        }
+
+        >div:nth-of-type(2) {
+            margin-right: 62.04px;
+        }
+
+        #s1 {
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+
+        #s2 {
+            font-family: "Inter", sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        #s3 {
+            font-family: "Inter", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        #s4 {
+            font-family: "Inter", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        #s5 {
+            font-family: "Inter", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        #s6 {
+            font-family: "Inter", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        p {
+            font-family: "Inter", sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #05073C;
+            margin: 0px;
+
+        }
+    }
+}
+
+
+footer {
+    width: auto;
+    background-image: url("images.png");
+    background-position: center;
+    background-size: cover;
+
+    .myfooter-section1 {
+        width: 1320px;
+        height: 655.13px;
+
+        .part-1 {
+            width: 1290px;
+            height: 185.13px;
+            left: 15px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid silver;
+
+            h4 {
+                margin-top: 94.31px;
+                margin-left: 80px;
+                font-family: "Inter", sans-serif;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 38px;
+                text-align: left;
+            }
+
+            span {
+                color: #EB662B;
+            }
+
+            p {
+                width: 74.72px;
+                height: 31.88px;
+                margin-top: 84.06px;
+                margin-left: 592px;
+                font-family: "Inter", sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 32px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+
+        .part-2 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+
+            h4 {
+                font-family: "Inter", sans-serif;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+            
+            }
+            
+            p {
+                font-family: "Inter", sans-serif;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 28px;
+                letter-spacing: 0em;
+                text-align: left;
+            
+            }
+            
+            >div:nth-of-type(1) {
+                width: 439.98px;
+                height: 390px;
+            }
+            
+            >div:nth-of-type(2) {
+                width: 128.23px;
+                height: 390px;
+            
+            }
+            
+            >div:nth-of-type(3) {
+                width: 119.59px;
+                height: 390px;
+            
+            }
+            
+            >div:nth-of-type(4) {
+                width: 330px;
+                height: 390px;
+
+                #first-name {
+                    width: 300px;
+                    height: 60px;
+                    border-radius: 12px;
+                    border: 1px solid #E7E6E6;
+              
+                }
+            }
+            
+
+        }
+
+
+    }
+
+    @media (min-width: 1850px) {
+        max-width: 1800px;
+        margin: auto;
+    }
+
+    @media (min-width: 1400px) {
+        .myfooter-section1 {
+            max-width: 1320px;
+            margin: auto;
+        }
+    }
+}
+
+.copyrights {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    @media (min-width: 1400px) {
+        max-width: 1320px;
+        margin: auto;
+    }
+}
+
+// ==================================vaibhavs css start here======================================
+
+
+
+
