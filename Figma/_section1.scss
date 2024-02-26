@@ -1,0 +1,214 @@
+#section1 {
+    width: 1920px;
+    height: 884px;
+
+
+    >.image {
+        position: relative;
+        width: 1860px;
+        height: 854px;
+        top: 30px;
+        left: 30px;
+        border-radius: 12px;
+
+    }
+
+    >h5 {
+        position: relative;
+        z-index: 2;
+        width: 135.97px;
+        height: 33.75px;
+        left: 15px;
+
+    }
+
+    >.header {
+        position: absolute;
+        z-index: 2;
+        width: 1920px;
+        height: 89px;
+        top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0px, 300px, 1px, 300px;
+        border: 0px, 0px, 1px, 0px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+        >.content1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 808.84px;
+            height: 44.12px;
+            top: 21.94px;
+            left: 15px;
+            color: rgba(255, 255, 255, 1);
+
+
+            >span:nth-of-type(1) {
+                color: rgb(232, 73, 16)
+            }
+
+        }
+
+        >.content2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 328.44px;
+            height: 44px;
+            top: 22px;
+            left: 976.56px;
+            color: rgba(255, 255, 255, 1);
+
+            >button {
+                padding: 10px;
+                border-radius: 18px;
+                border: 1px solid rgba(255, 255, 255, 1);
+                color: rgba(255, 255, 255, 1);
+                background: none;
+            }
+
+            >div {
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                border: 1px solid rgba(255, 255, 255, 1);
+            }
+
+        }
+
+
+    }
+
+    >.box1 {
+        position: absolute;
+        z-index: 2;
+        width: 769.98px;
+        height: 340px;
+        top: 272px;
+        left: 230px;
+        color: rgba(255, 255, 255, 1);
+
+
+
+        >p:nth-of-type(1) {
+            position: absolute;
+            width: 135.97px;
+            height: 33.75px;
+            left: 15px;
+            font-family: Inter;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 34px;
+            letter-spacing: 0em;
+            text-align: left;
+
+
+        }
+
+        >h1 {
+            position: relative;
+            width: 663.61px;
+            height: 175px;
+            top: -10.75px;
+            left: 15px;
+            font-family: Inter;
+            font-size: 70px;
+            font-weight: 600;
+            line-height: 84px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+
+        >p:nth-of-type(2) {
+            position: absolute;
+            width: 425.75px;
+            height: 48.13px;
+            top: 200.75px;
+            left: 20px;
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+
+
+        }
+
+        >button {
+            position: absolute;
+            width: 165.66px;
+            height: 62px;
+            top: 278px;
+            left: 15px;
+            padding: 21px, 35.8px, 21px, 36px;
+            border-radius: 12px;
+            border: 1px;
+            border: 1px solid rgba(255, 255, 255, 1);
+            color: rgba(255, 255, 255, 1);
+            background: none;
+        }
+
+    }
+
+    >.box2 {
+        position: absolute;
+        width: 409.98px;
+        height: 166.05px;
+        top: 370.97px;
+        left: 1195.02px;
+        color: rgba(255, 255, 255, 1);
+
+        >p:nth-of-type(1) {
+            position: relative;
+            width: 30.92px;
+            height: 12.95px;
+            top: 3.97px;
+            left: 1.04px;
+
+        }
+
+        >p:nth-of-type(2) {
+            position: relative;
+            width: 100.19px;
+            height: 14.17px;
+            top: 5.34px;
+            left: 0.65px;
+
+        }
+
+        img {
+            position: absolute;
+            width: 368.69px;
+            height: 52.54px;
+            top: 70.36px;
+            left: 21.58px;
+
+        }
+
+        >:nth-of-type(3) {
+            position: absolute;
+            width: 35.84px;
+            height: 12.95px;
+            top: 105.61px;
+            left: 373.48px;
+
+        }
+
+        >p:nth-of-type(4) {
+            position: absolute;
+            width: 122px;
+            height: 10.99px;
+            top: 130.86px;
+            left: 295.82px;
+
+        }
+
+
+    }
+
+}
