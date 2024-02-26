@@ -55,7 +55,7 @@ Varshita Basvraj
 Sanju Kumari
 ---------------
 
-# Screenshots of Landing Page:-
+# Screenshots of Bootstrap Landing Page:-
 
 ![Screenshot (206)](https://github.com/vaibhav540/CW-204-Project/assets/158465350/664a3b5a-42f8-4be3-a890-21dc23163977)
 
@@ -64,6 +64,22 @@ Sanju Kumari
 ![Screenshot (208)](https://github.com/vaibhav540/CW-204-Project/assets/158465350/afaea85c-9aee-4f33-b7ff-a9a305df8c34)
 
 ![Screenshot (209)](https://github.com/vaibhav540/CW-204-Project/assets/158465350/8238a295-a7ec-46df-9932-1c18a062bf72)
+
+
+
+# Ccreenshots of Figma Landing Page:-
+
+![Screenshot (210)](https://github.com/vaibhav540/CW-204-Project/assets/158465350/61f8ccd9-ef3c-4116-b681-2c2a0618511a)
+
+![Screenshot (211)](https://github.com/vaibhav540/CW-204-Project/assets/158465350/84398f6a-5a9d-439d-84b0-2d8cdb72972d)
+
+![Screenshot (212)](https://github.com/vaibhav540/CW-204-Project/assets/158465350/16095383-6edd-42d5-aead-6a594f9540f3)
+
+![Screenshot (213)](https://github.com/vaibhav540/CW-204-Project/assets/158465350/2df260d5-92a4-4df4-a747-2c41294ca085)
+
+
+
+
 
 
 
