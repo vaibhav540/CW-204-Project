@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 #section1 {
   width: 1920px;
   height: 884px;
@@ -579,6 +580,528 @@
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+figure {
+  width: 1930px;
+  height: 652px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+figure > div {
+  margin-left: 300px;
+}
+figure > div > #heading {
+  width: 212.4px;
+  height: 45px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+figure > div > #heading > h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+figure > div > #images-container {
+  padding: 0px;
+  width: 1730px;
+  height: 450px;
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 40px;
+  gap: 30px;
+}
+figure > div > #images-container > .img {
+  position: relative;
+}
+figure > div > #images-container > .img > .day {
+  width: 39.97px;
+  height: 24.38px;
+  margin-top: 51px;
+  margin-left: 35.5px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+figure > div > #images-container > .img .country {
+  width: auto;
+  height: 24.38px;
+  margin-top: 247.56px;
+  margin-left: 50px;
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+figure > div > #images-container > .img > .from {
+  width: 31.01px;
+  height: 17px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: right;
+  position: absolute;
+  top: 369.06px;
+  left: 349.19px;
+  bottom: 64.94px;
+}
+figure > div > #images-container > .img > .rating {
+  width: 54.59px;
+  height: 17px;
+  position: absolute;
+  top: 399.63px;
+  left: 125px;
+  right: 230.41px;
+  bottom: 34.37px;
+  color: rgb(255, 255, 255);
+}
+figure > div > #images-container > .img > .dollar {
+  width: auto;
+  height: 24px;
+  position: absolute;
+  top: 390.25px;
+  left: 316.83px;
+  right: 35.75px;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+figure > div .img1 {
+  background-image: url("./images/img1.png");
+  background-position: center;
+  background-size: cover;
+  width: 410px;
+  height: 450px;
+  border-radius: 12px;
+  padding: 0px;
+  margin-left: 15px;
+}
+figure > div .img1 > #info1 {
+  width: 280.56px;
+  height: 51px;
+  margin-top: 6px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+figure > div .img2 {
+  background-image: url("./images/img2.png");
+  background-position: center;
+  background-size: cover;
+  width: 410px;
+  height: 450px;
+  border-radius: 12px;
+}
+figure > div .img2 > #info2 {
+  width: 301.22px;
+  height: 51px;
+  margin-top: 6px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+figure > div .img3 {
+  background-image: url("./images/img3.png");
+  background-position: center;
+  background-size: cover;
+  width: 410px;
+  height: 450px;
+  border-radius: 12px;
+}
+figure > div .img3 > #info3 {
+  width: 238.25px;
+  height: 51px;
+  margin-top: 6px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 17.72px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+figure > div .img4 {
+  background-image: url("./images/img4.png");
+  background-position: center;
+  background-size: cover;
+  width: 410px;
+  height: 450px;
+  border-radius: 12px;
+}
+figure > div .img4 > #info4 {
+  width: 284.01px;
+  height: 51px;
+  margin-top: 6px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 17.58px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+section {
+  width: 1920px;
+  display: flex;
+  margin: auto;
+  height: 816.38px;
+  position: relative;
+  box-sizing: border-box;
+}
+section > #left-img {
+  width: 710.39px;
+  height: 710.39px;
+  background-image: url("./images/side_img.png");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 52.9px;
+  z-index: 2;
+}
+section > #tour-content {
+  width: 1270px;
+  height: 100%;
+  background-color: #fef7f4;
+  margin-left: 590px;
+  margin-top: 0px;
+}
+section > #tour-content > #head {
+  margin-top: 210px;
+  margin-left: 285px;
+  width: 267px;
+  height: 45px;
+  font-family: "Inter", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(5, 7, 60);
+}
+section > #tour-content > #tagline {
+  height: 28.13px;
+  color: rgb(5, 7, 60);
+  margin-left: 285px;
+  font-family: "Inter", sans-serif;
+  font-size: 29px;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(5, 7, 60);
+}
+section > #tour-content > #content1 {
+  height: 263.25px;
+  width: 336.66px;
+  background-color: white;
+  position: absolute;
+  left: 505px;
+  top: 343px;
+  z-index: 3;
+  border-radius: 24px;
+}
+section > #tour-content > #content2 {
+  height: 263.25px;
+  width: 336.66px;
+  background-color: white;
+  position: absolute;
+  left: 872px;
+  top: 343px;
+  border-radius: 24px;
+}
+section > #tour-content > #content3 {
+  height: 263.25px;
+  width: 336.66px;
+  background-color: white;
+  position: absolute;
+  left: 1238px;
+  top: 343px;
+  border-radius: 24px;
+}
+section > #tour-content .content-img {
+  width: 60px;
+  height: 60px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+section > #tour-content .content-title {
+  width: auto;
+  height: 27px;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+section > #tour-content .tour-info {
+  margin-top: 14px;
+  margin-left: 40px;
+  height: 48.12px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(5, 7, 60);
+}
+section > #tour-content .content-info1 {
+  width: 189.92px;
+  height: 48.12px;
+}
+section > #tour-content .content-info2 {
+  width: 232.42px;
+  height: 48.12px;
+}
+
+summary {
+  margin-top: 105px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1860px;
+  height: 774.75px;
+  border-radius: 24px;
+  background-color: rgb(5, 7, 60);
+  box-sizing: border-box;
+  border: rgb(5, 7, 60) solid;
+  position: relative;
+}
+summary > #v-container {
+  width: 1320px;
+  height: 609.75px;
+  margin-top: 75px;
+  margin-left: 270px;
+  display: flex;
+}
+summary > #v-container > #summary-info {
+  width: 550px;
+  height: 281.25px;
+  position: absolute;
+  top: 170.5px;
+  left: 270px;
+}
+summary > #v-container > #summary-info > p {
+  width: 280.4px;
+  height: 84px;
+  margin-top: 18px;
+  margin-left: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+summary > #v-container > #summary-info > div {
+  display: flex;
+  height: 161.25px;
+  margin-top: 18px;
+}
+summary > #v-container > #summary-info > div > #summary-info1 {
+  width: 280px;
+  height: 161.25px;
+  margin-left: 5px;
+  box-sizing: border-box;
+  color: white;
+}
+summary > #v-container > #summary-info > div > #summary-info1 > h4 {
+  width: 61.58px;
+  height: 75px;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+summary > #v-container > #summary-info > div > #summary-info1 > p {
+  width: 206.5px;
+  height: 48.13px;
+  margin-top: -20px;
+  margin-left: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+summary > #v-container > #summary-info > div > #summary-info2 {
+  width: 280px;
+  height: 161.25px;
+  margin-left: 5px;
+  box-sizing: border-box;
+  color: white;
+}
+summary > #v-container > #summary-info > div > #summary-info2 > h4 {
+  width: 61.58px;
+  height: 75px;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+summary > #v-container > #summary-info > div > #summary-info2 > p {
+  width: 206.5px;
+  height: 28.13px;
+  margin-top: -22px;
+  margin-left: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+summary > #v-container > #summary-slide > #first-slid {
+  width: 520px;
+  height: 342.25px;
+  position: absolute;
+  top: 90px;
+  left: 1055px;
+  z-index: 4;
+  background-color: white;
+  border-radius: 24px;
+}
+summary > #v-container > #summary-slide > #first-slid > .p-tag {
+  width: auto;
+  height: 33.75px;
+  margin-top: 50px;
+  margin-left: 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(235, 102, 43);
+}
+summary > #v-container > #summary-slide > #first-slid .slid-info {
+  width: 417.23px;
+  height: 104.38px;
+  margin-top: 19px;
+  margin-left: 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+summary > #v-container > #summary-slide > #first-slid > #slid-profile {
+  display: flex;
+  border-top: 1px gray solid;
+  width: 440px;
+  height: 81px;
+  margin-top: 24.12px;
+  margin-left: 40px;
+  gap: 20px;
+  font-family: "Inter", sans-serif;
+}
+summary > #v-container > #summary-slide > div:nth-of-type(2) {
+  width: 520px;
+  height: 315.85px;
+  position: absolute;
+  top: 94.98px;
+  left: 1109.94px;
+  z-index: 3;
+  background-color: white;
+  border-radius: 24px;
+}
+summary > #v-container > #summary-slide > div:nth-of-type(3) {
+  width: 520px;
+  height: 293.36px;
+  position: absolute;
+  top: 99.62px;
+  left: 1150.63px;
+  z-index: 2;
+  background-color: white;
+  border-radius: 24px;
+}
+summary > #v-container > #summary-slide > div:nth-of-type(4) {
+  width: 520px;
+  height: 273.8px;
+  position: absolute;
+  top: 103.99px;
+  left: 1179.94px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 24px;
+}
+summary > .mid-ptag {
+  width: 290.56px;
+  height: 22.5px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 592.25px;
+  left: 799.31px;
+}
+summary > #icon-section {
+  width: 1290px;
+  height: 30px;
+  position: absolute;
+  top: 654.75px;
+  left: 285px;
+  display: flex;
+  gap: 30px;
+}
+summary > #icon-section > div {
+  width: 190px;
+  height: 30px;
+  text-align: center;
+}
+summary > #icon-section > div > img {
+  width: 100px;
+  height: 30px;
 }
 
 body {
