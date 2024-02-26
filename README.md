@@ -11,7 +11,7 @@ Front-End
 
 Link for Bootstrap:- https://65db216b4e315fbeceaf153e--splendorous-yeot-4cdc40.netlify.app/
 
-Link for Figma:- 
+Link for Figma:- https://65dcb4df988cf1146a5b5eeb--lustrous-cobbler-08fbff.netlify.app/
 
 # Directory Structre:-
 
