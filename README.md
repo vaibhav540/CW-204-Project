@@ -67,7 +67,7 @@ Sanju Kumari
 
 
 
-# Ccreenshots of Figma Landing Page:-
+# Screenshots of Figma Landing Page:-
 
 ![Screenshot (210)](https://github.com/vaibhav540/CW-204-Project/assets/158465350/61f8ccd9-ef3c-4116-b681-2c2a0618511a)
 
